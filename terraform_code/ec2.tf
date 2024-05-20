@@ -1,10 +1,10 @@
 provider "aws" {
-    region = "us-east-1" 
+    region = "ap-south-1" 
     
 }
 
 resource "aws_instance" "demo-server" {
-    ami = "ami-0e001c9271cf7f3b9"
+    ami = "ami-05e00961530ae1b55"
     instance_type ="t2.micro"
     key_name = "dpp"
 }
